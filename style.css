@@ -6,6 +6,9 @@
   font-family: "Fira Sans", serif;
   /* font-weight: 400; */
 }
+body {
+  background: rgb(245, 245, 245);
+}
 
 /* common section */
 .btn-cmn {
@@ -208,4 +211,74 @@ main {
   scale: 1.1;
   transition-duration: 500ms;
   cursor: pointer;
+}
+
+/* <!-- Dr. Yunus section --> */
+
+#yunus {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  margin-top: 32px;
+}
+
+#yunus .yunus-div {
+  background: url("./assets/quote-bg.png");
+  background-repeat: no-repeat;
+}
+#yunus .yunus-div .pillars-subtitle {
+  padding-top: 20px;
+  margin-bottom: 14px;
+}
+.dr-yunus {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+.dr-yunus-p {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+/* recent news section */
+
+#recent-news .recent-div {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 48px;
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+#recent-news .recent-div-sec{
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 48px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.recent-bd {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.recent-date-time{
+  display: flex;
+  gap: 12px;
+  margin:12px 0 12px 0 ;
+}
+.read-more{
+  margin-top: 32px;
 }
