@@ -49,7 +49,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 24px;
+  padding-top: 24px;
 }
 .navbar h1 {
   color: rgb(14, 14, 14);
