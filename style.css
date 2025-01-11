@@ -256,7 +256,7 @@ main {
   margin-bottom: 24px;
 }
 
-#recent-news .recent-div-sec{
+#recent-news .recent-div-sec {
   border-radius: 24px;
   background: rgb(255, 255, 255);
   padding: 48px;
@@ -274,11 +274,73 @@ main {
   margin-bottom: 12px;
 }
 
-.recent-date-time{
+.recent-date-time {
   display: flex;
   gap: 12px;
-  margin:12px 0 12px 0 ;
+  margin: 12px 0 12px 0;
 }
-.read-more{
+.read-more {
+  margin-top: 32px;
+}
+
+/* Donate toady */
+#donate-today-sec {
+  padding: 0 58px 0 58px;
+  text-align: center;
+}
+#donate-today-sec .common-heading {
+  text-align: center;
+}
+#donate-today-sec .pillars-subtitle {
+  text-align: center;
+}
+
+.donate-taka-div {
+  display: flex;
+  justify-content: space-between;
+}
+.donate-tk {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 36px;
+  background: rgb(255, 255, 255);
+  margin: 0px 24px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 32px;
+}
+.donate-tk:hover {
+  background: rgb(0, 106, 80);
+  color: rgb(198, 228, 214);
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.tk200 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+.input-taka {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  width: 95%;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  padding: 16px;
+  margin-top: 32px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+}
+
+.done-now{
   margin-top: 32px;
 }
